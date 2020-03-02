@@ -20,8 +20,12 @@ public class LibraryMSController {
     public String create() {
         return "signin.html";
     }
-    @GetMapping("/Books")
-    public String Books() {
-        return "Books.html";
+    @GetMapping("/books")
+    public String books() {
+        return "books.html";
+    }
+    @GetMapping("/view")
+    public String view() {
+        return "view.html";
     }
 }

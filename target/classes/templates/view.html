@@ -1,0 +1,63 @@
+<html>
+<div th:replace="common/head.html"></div>
+
+<body>
+    <div class="main-container" style="min-height: 100vh; position: relative;">
+        <div th:replace="common/menu.html"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-lg">
+                    <h2>Product Title</h2>
+                    <img src="http://placehold.it/200x200&text=Logo" class="rounded float-left" alt="...">
+                    <p>DESCRIPTION</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">&nbsp;</div>
+        </div>
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 align-self-center">
+                        <label for="title"><b>Title:</b></label>
+                    </div>
+                    <div class="col-lg-10">
+                        <!-- <p th:text="${note.title}">
+                            <p> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 align-self-center">
+                        <label for="title"><b>Date Created:</b></label>
+                    </div>
+                    <div class="col-lg-10">
+                        <!-- <p th:text="${note.date}"></p> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <label for="note"><b>Note:</b></label>
+                    </div>
+                    <div class="col-lg-10">
+                        <!-- <textarea readonly th:text="${note.content}" name="content"
+                            style="height:200px; background-color: white;" class="form-control"></textarea> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">&nbsp;</div>
+                </div>
+            </div>
+        </form>
+        <!-- Footer -->
+        <div th:replace="common/footer.html"></div>
+</body>
+
+</html>
